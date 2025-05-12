@@ -30,7 +30,7 @@ python inventory.py
 ## Step 3: Navigate the Menu
 Once the program is executed, the main menu will be displayed with the following options:
 
-- Add a product:
+### Add a product:
 Enter the product name, price, and quantity.
 If the product already exists, an error message will be displayed.
 Consult a product:
@@ -51,18 +51,19 @@ Examples of Input and Output Data
 Example 1: Add a Product
 Input:
 
-1. Add product
-Add new product, what is the name?: sugar
-This product already exists
-Input (new product):
+      1. Add product
+      Add new product, what is the name?: sugar
+      This product already exists
+      Input (new product):
+results:
 
-1. Add product
-Add new product, what is the name?: flour
-Price: 800
-Quantity: 10
-Product flour added successfully.
-Example 2: Consult a Product
-Input:
+      1. Add product
+      Add new product, what is the name?: flour
+      Price: 800
+      Quantity: 10
+      Product flour added successfully.
+      Example 2: Consult a Product
+      Input:
 
 2. Consult product
 What product do you want to search?: sugar
